@@ -1,0 +1,10 @@
+flowchart TB
+    ERP[ERP/OMS] --> WMS[WMS: 订单/库存/货位/波次]
+    WMS --> WCS[WCS: 任务分解/设备接口]
+    WCS --> RCS[RCS: AMR 调度/路径/交通管制/充电]
+    RCS --> AMR[AMR 车队]
+    WCS --> Conveyor[输送线/分拣设备]
+    WCS --> Station[人工/机械臂拣选工位]
+    Station --> Scanner[扫码枪/PDA/HMI]
+    Scanner --> WMS
+    WCS --> Monitor[监控看板/日志/异常工单]
