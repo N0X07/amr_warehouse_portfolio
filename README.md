@@ -14,12 +14,7 @@
 ## 目录
 
 - `pdf/amr_warehouse_solution.pdf`: 方案 PDF
-- `docs/solution.md`: 完整方案说明书文字版
-- `docs/training.md`: 现场培训材料
-- `docs/faq_ops_manual.md`: FAQ 与运维手册
-- `diagrams/process_flow.mmd`: 业务流程图 Mermaid 源文件
-- `diagrams/system_architecture.mmd`: 系统架构图 Mermaid 源文件
-- `data/equipment_risk_acceptance.csv`: 设备、风险和验收指标清单
+- `ppt/amr_warehouse_solution.pptx`: 方案展示 PPT
 
 ## 简历项目描述
 
